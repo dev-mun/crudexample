@@ -1,0 +1,26 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="djangoapi.api_views" />
+          <option value="djangoapi.rental.models.Friend.objects" />
+          <option value="djangoapi.rental.api_views.viewset" />
+          <option value="djangoapi.rental.models.Borrowed.*" />
+          <option value="djangoapi.rental.models.Belonging.*" />
+          <option value="rental.api_views" />
+          <option value="views.*" />
+          <option value="crudexample.person.models.Person.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
